@@ -141,18 +141,4 @@ El script imprimirá **todas** las respuestas de los ejercicios y las comprobaci
 - **David Santiago Castillo Molano**: función `interseccion_lenguajes`, ejercicios 1–10 de intersección, revisión de PR de unión y concatenación.  
 - **Juan Diego Walteros Cortes**: función `concatenacion_lenguajes`, ejercicios 1–10 de concatenación, validación de pruebas y documentación.
 
----
 
-## Penalizaciones a evitar
-- Repo privado o múltiples repos → **-0.5**  
-- Trabajar directo en `main` sin PR → **-0.5**  
-- Falta de docstrings/comentarios → **-0.5**  
-- README incompleto → **-0.5**  
-- No entregar PDF con portada + enlace → **-0.5**
-
----
-
-## Cómo generar el PDF de entrega
-1. Edita `ENTREGA.md` para añadir el **enlace real del repositorio**.  
-2. Abre `ENTREGA.md` y **exporta a PDF** (desde tu editor/visor Markdown) con orientación vertical.  
-3. Entrega ese PDF en el aula virtual.
