@@ -96,14 +96,11 @@ cadi-lenguajes-finitos/
    ```
 3. **Configurar identidad (una vez por máquina):**
    ```bash
-   git config user.name "Tu Nombre"
-   git config user.email "tu.correo@ejemplo.com"
+   git config user.name "Truder3105"
+   git config user.email "jestebanballesteros@ucundinamarca.edu.co"
    ```
 4. **Main protegida (opcional recomendado)**: activar protección de rama *main* en GitHub para requerir Pull Requests.
-5. **Crear rama propia** (ejemplo para Julian):  
-   ```bash
-   git checkout -b rama-julian
-   ```
+5. **Crear rama propia** 
 6. **Agregar/editar archivos** (`lenguajes.py`, `README.md`, etc.).  
 7. **Agregar y commitear**:  
    ```bash
