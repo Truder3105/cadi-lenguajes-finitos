@@ -24,7 +24,7 @@ cadi-lenguajes-finitos/
   - `interseccion_lenguajes(*L)` → `Set[str]`
   - `concatenacion_lenguajes(A,B)` → `Set[str]`
   - `pertenece(palabra, L)` → `bool`
-- Ejecutar: `python3 lenguajes.py` (imprime todos los resultados).
+- Ejecutar: `python lenguajes.py` (imprime todos los resultados).
 
 ---
 
@@ -91,13 +91,13 @@ cadi-lenguajes-finitos/
 1. **Crear repositorio público en GitHub**: `cadi-lenguajes-finitos`  
 2. **Clonar repo**:  
    ```bash
-   git clone https://github.com/<organizacion-o-usuario>/cadi-lenguajes-finitos.git
+   https://github.com/Truder3105/cadi-lenguajes-finitos/tree/setup-inicial
    cd cadi-lenguajes-finitos
    ```
 3. **Configurar identidad (una vez por máquina):**
    ```bash
-   git config user.name "Tu Nombre"
-   git config user.email "tu.correo@ejemplo.com"
+   git config user.name "Truder3105"
+   git config user.email "jestebanballesteros@ucundinamarca.edu.co"
    ```
 4. **Main protegida (opcional recomendado)**: activar protección de rama *main* en GitHub para requerir Pull Requests.
 5. **Crear rama propia** (ejemplo para Julian):  
@@ -130,7 +130,7 @@ cadi-lenguajes-finitos/
 ## Instrucciones de uso
 ```bash
 # Requisitos: Python 3.9+
-python3 lenguajes.py
+python lenguajes.py
 ```
 El script imprimirá **todas** las respuestas de los ejercicios y las comprobaciones de pertenencia.
 
@@ -143,16 +143,4 @@ El script imprimirá **todas** las respuestas de los ejercicios y las comprobaci
 
 ---
 
-## Penalizaciones a evitar
-- Repo privado o múltiples repos → **-0.5**  
-- Trabajar directo en `main` sin PR → **-0.5**  
-- Falta de docstrings/comentarios → **-0.5**  
-- README incompleto → **-0.5**  
-- No entregar PDF con portada + enlace → **-0.5**
 
----
-
-## Cómo generar el PDF de entrega
-1. Edita `ENTREGA.md` para añadir el **enlace real del repositorio**.  
-2. Abre `ENTREGA.md` y **exporta a PDF** (desde tu editor/visor Markdown) con orientación vertical.  
-3. Entrega ese PDF en el aula virtual.
